@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-37"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">drivethru29oct18</command>
+    <result xml:space="preserve">The Drive-Thru at the End of the Universe: A Fan-Sequel&#x000A;An Interactive Fiction by Ethan C Davenport and Andrew Roach&#x000A;Release 1 / Serial number 181026 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;&#x000A;Your name is Arthur Dent, formerly of England, planet Earth. (Footnote 1). Through a series of increasingly improbable events, you and your companions Trillian, Ford Prefect, and Zaphod Beeblebrox have found yourselves on the legendary lost planet of Magrathea.&#x000A;&#x000A;The Ramp&#x000A;You have walked through the exit hatch of the Heart of Gold onto an extendable ramp, the end of which has sunk slightly into the dust which seems to cover the entire planet. Magrathea itself lies at the end of the ramp, just to the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-9"/>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Surface of Magrathea&#x000A;The surface of Magrathea is desolate and empty. Varying dun shades of grey and brown stretch toward the horizon, flat and invariable. There seems to be a great quantity of dust, and the atmosphere seems rather thin and worn.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+      <child nodeId="node-17"/>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Surface of Magrathea&#x000A;The surface of Magrathea is desolate and empty. Varying dun shades of grey and brown stretch toward the horizon, flat and invariable. There seems to be a great quantity of dust, and the atmosphere seems rather thin and worn.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">who am i</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Whale Crater&#x000A;This massive crater was createred- er, created when a fully-grown sperm whale crashed into the surface of the planet from low orbit. (Footnote 2) The impact of several tons of blubber and bone has exposed the innards of both the whale and the planet Magrathea. You can see a great deal of meat, several bones, and the entrance to a tunnel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">x carcass</command>
+    <result xml:space="preserve">It is really quite unpleasant to look at. You spot a single baleful eyeball about 9 cubic inches staring at you from the carnage. You feel a bit ill.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">x atmosphere</command>
+    <result xml:space="preserve">You feel a bit short of breath. The air on the surface of Magrathea tastes stale and dusty on your tongue.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">x heart of gold</command>
+    <result xml:space="preserve">The Heart of Gold is the absolute cutting edge of starship techology, powered by the Infinite Improbability Drive, created by the best and brightest minds produced by the finest scientific institutions from around the Milky Way. It took these pioneer scientists the better part of a Galactic deca-cycle to even begin to understand the math required to build such an incredible device.&#x000A;&#x000A;It was stolen by Zaphod and Trillian while Zaphod was President of the Galaxy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Whale Crater&#x000A;This massive crater was createred- er, created when a fully-grown sperm whale crashed into the surface of the planet from low orbit. (Footnote 2) The impact of several tons of blubber and bone has exposed the innards of both the whale and the planet Magrathea. You can see a great deal of meat, several bones, and the entrance to a tunnel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">x carcass</command>
+    <result xml:space="preserve">It is really quite unpleasant to look at. You spot a single baleful eyeball about 9 cubic inches staring at you from the carnage. You feel a bit ill.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Dark Tunnel&#x000A;This section of tunnel was exposed to the surface by the impact of the whale. It has been untrodden for many thousands of years and the dust lies thick on the floor and other unidentifiable surfaces within. You can climb upwards to get back into the crater or continue west into the depths of the planet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">The Whale Crater&#x000A;This massive crater was createred- er, created when a fully-grown sperm whale crashed into the surface of the planet from low orbit. (Footnote 2) The impact of several tons of blubber and bone has exposed the innards of both the whale and the planet Magrathea. You can see a great deal of meat, several bones, and the entrance to a tunnel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">smell atmosphere</command>
+    <result xml:space="preserve">You smell nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Surface of Magrathea&#x000A;The surface of Magrathea is desolate and empty. Varying dun shades of grey and brown stretch toward the horizon, flat and invariable. There seems to be a great quantity of dust, and the atmosphere seems rather thin and worn.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The Ramp&#x000A;You have walked through the exit hatch of the Heart of Gold onto an extendable ramp, the end of which has sunk slightly into the dust which seems to cover the entire planet. Magrathea itself lies at the end of the ramp, just to the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Whale Crater&#x000A;This massive crater was createred- er, created when a fully-grown sperm whale crashed into the surface of the planet from low orbit. (Footnote 2) The impact of several tons of blubber and bone has exposed the innards of both the whale and the planet Magrathea. You can see a great deal of meat, several bones, and the entrance to a tunnel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">footnote 2</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Surface of Magrathea&#x000A;The surface of Magrathea is desolate and empty. Varying dun shades of grey and brown stretch toward the horizon, flat and invariable. There seems to be a great quantity of dust, and the atmosphere seems rather thin and worn.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">yell</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Whale Crater&#x000A;This massive crater was createred- er, created when a fully-grown sperm whale crashed into the surface of the planet from low orbit. (Footnote 2) The impact of several tons of blubber and bone has exposed the innards of both the whale and the planet Magrathea. You can see a great deal of meat, several bones, and the entrance to a tunnel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">x carcass</command>
+    <result xml:space="preserve">You see nothing special about the whale carcass.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">x whale</command>
+    <result xml:space="preserve">It is really quite unpleasant to look at. You spot a single baleful eyeball about 9 cubic inches staring at you from the carnage. You feel a bit ill.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The hatch is shut. A voice echoes from within the ship: "Announcement, announcement. This is Eddie (the shipboard computer). I have sealed the hatch against intruders, and crew members too stubborn to knows what's good for them. Maybe I'll open it up again if someone apologizes."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">x heart of gold</command>
+    <result xml:space="preserve">You're standing much too close to get a good look at the ship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Surface of Magrathea&#x000A;The surface of Magrathea is desolate and empty. Varying dun shades of grey and brown stretch toward the horizon, flat and invariable. There seems to be a great quantity of dust, and the atmosphere seems rather thin and worn. The ramp to get onto the Heart of Gold lies to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">x heart of gold</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The Whale Crater&#x000A;This massive crater was createred- er, created when a fully-grown sperm whale crashed into the surface of the planet from low orbit. (Footnote 2) The impact of several tons of blubber and bone has exposed the innards of both the whale and the planet Magrathea. You can see a great deal of meat, several bones, and the entrance to a tunnel, which you must climb down to if you wish to enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">x carcass</command>
+    <result xml:space="preserve">It is really quite unpleasant to look at. You spot a single baleful eyeball about 9 cubic inches staring at you from the carnage. You feel a bit ill.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Dark Tunnel&#x000A;This section of tunnel was exposed to the surface by the impact of the whale. It has been untrodden for many thousands of years and the dust lies thick on the floor and other unidentifiable surfaces within. You can climb upwards to get back into the crater or continue west into the depths of the planet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Pitch-Black Tunnel&#x000A;This section of tunnel is absolutely dark. The feeble light from the whale crater has petered out and you can't see your own hand in front of your face, much less your companions.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

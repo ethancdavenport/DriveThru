@@ -21,7 +21,11 @@ Chapter 1 - Planetfall
 The player is Arthur.
 [ECD: how the fuck do i get this text to print? UPDATE: thank fucking christ. UPDATE: read 9.1. UPDATE: whoops. reverting.] After printing the banner text: say "
 
-Your name is Arthur Dent, formerly of England, planet Earth. (Footnote 1). Through a series of increasingly improbable events, you and your companions Trillian, Ford Prefect, and ex-Galactic President Zaphod Beeblebrox have found yourselves on the legendary lost planet of Magrathea." 
+Your name is Arthur Dent, formerly of England, planet Earth. (Footnote 1). Through a series of increasingly improbable events, you and your companions Trillian, Ford Prefect, and ex-Galactic President Zaphod Beeblebrox have found yourselves on the legendary lost planet of Magrathea."   
+
+After printing the banner text: Zaphod leaves in six turns from now. 
+
+ At the time when Zaphod leaves: move Zaphod Beeblebrox to The Surface of Magrathea; move Trillian to The Surface of Magrathea; move Ford to The Surface of Magrathea; move Marvin to The Surface of Magrathea;
 
 The Surface is a region. The Surface of Magrathea and The Whale Crater are in the Surface. 
 
@@ -35,13 +39,17 @@ The Ramp is a room.  "You have walked through the exit hatch of the Heart of Gol
 
 The Surface of Magrathea is a room.  "The surface of Magrathea is desolate and empty. Varying dun shades of grey and brown stretch toward the horizon, flat and invariable. There seems to be a great quantity of dust, and the atmosphere seems rather thin and worn. The ramp to get onto the Heart of Gold lies to the north and the ground appears to be disrupted to the west.." The Surface of Magrathea is south of The Ramp. 
 
-The Whale Crater is a room. "This massive crater was createred- er, created when a fully-grown sperm whale crashed into the surface of the planet from low orbit. (Footnote 2) The impact of several tons of blubber and bone has exposed the innards of both the whale and the planet Magrathea. You can see a great deal of meat, several bones, and the entrance to a tunnel, which you must climb down to if you wish to enter. The Heart of Gold lies to the east and the blank expanse of the Magrathean surface extends to the south." The Whale Crater is west of the Surface of Magrathea. The whale carcass is scenery in The Whale Crater.  "It is really quite unpleasant to look at. You spot a single baleful eyeball about 9 cubic inches staring at you from the carnage. You feel a bit ill." [ECD: Syntax again... If the player is in The Whale Crater:] Instead of going down, say "The prospect of picking your way through the blubbery rubble makes your stomach turn. You stay where you are, trying not to look down (but also trying not to step in anything, which is difficult while not looking down) and hoping for your stomach to settle." A thing called whale meat is in The Whale Crater. The description of whale meat is "A bloody hunk of steaming whale flesh, freshly exploded." Instead of taking whale meat, say "The merest thought of putting your hands on a gobbet of exploded whale opens new dimensions of feeling ill for you."
+The Whale Crater is a room. "This massive crater was createred- er, created when a fully-grown sperm whale crashed into the surface of the planet from low orbit. (Footnote 2) The impact of several tons of blubber and bone has exposed the innards of both the whale and the planet Magrathea. You can see a great deal of meat, several bones, and the entrance to a tunnel, which you must climb down to if you wish to enter. The Heart of Gold lies to the east and the blank expanse of the Magrathean surface extends to the south." The Whale Crater is west of the Surface of Magrathea. The whale carcass is scenery in The Whale Crater.  "It is really quite unpleasant to look at. You spot a single baleful eyeball about 9 cubic inches staring at you from the carnage. You feel a bit ill." [ECD: Syntax again... If the player is in The Whale Crater: AR - fixed] Instead of going down from The Whale Crater, say "The prospect of picking your way through the blubbery rubble makes your stomach turn. You stay where you are, trying not to look down (but also trying not to step in anything, which is difficult while not looking down) and hoping for your stomach to settle." A thing called whale meat is in The Whale Crater. The description of whale meat is "A bloody hunk of steaming whale flesh, freshly exploded." Instead of taking whale meat, say "The merest thought of putting your hands on a gobbet of exploded whale opens new dimensions of feeling ill for you."
 
 The Desolate Plain is a room.  "Another stretch of the surface of Magrathea stretches out before you. It is virtrually indistinguishable from everything else you have seen so far. Wait...in the distance...is that...?
 
-No, nevermind. It's just more grey-brown flatness. The Whale Crater yawns northward of you." The Desolate Plain is south of The Whale Crater. [ECD: Need to figure out the syntax for scripted events. When the player enters The Desolate Plain: say "Slartibartfast gestures towards a sleek-looking vehicle standing on several thin struts. 
+No, nevermind. It's just more grey-brown flatness. The Whale Crater yawns northward of you." The Desolate Plain is south of The Whale Crater. [ECD: Need to figure out the syntax for scripted events. AR - Fixed] 
+   
+ After going from The Whale Crater to The Desolate Plain: try looking; say "Slartibartfast gestures towards a sleek-looking vehicle standing on several thin struts. 
 
-'My aircar,' he says. "] A vehicle called the Aircar is in The Desolate Plain. The description of the Aircar is "The Aircar was the peak of Magrathean luxury transportation five million years ago. Unfortunately by modern Galactic standards, it's terribly out of style, but fortunately neither you nor Slartibartfast, the owner of the Aircar, knows or cares about modern Galactic standards."
+'My aircar', he says."; 
+
+ A vehicle called the Aircar is in The Desolate Plain. The description of the Aircar is "The Aircar was the peak of Magrathean luxury transportation five million years ago. Unfortunately by modern Galactic standards, it's terribly out of style, but fortunately neither you nor Slartibartfast, the owner of the Aircar, knows or cares about modern Galactic standards."
 
 [ECD: Arthur should not be able to drive the Aircar. Also need to figure out how to script events based on turns!]
 
